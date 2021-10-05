@@ -5,4 +5,15 @@
     <string name="service_unavailable_message">Service unavailable</string>
     <string name="something_went_wrong">Something went wrong</string>
     <string name="try_again">TRY AGAIN</string>
+    <string name="wordoftanks">WordOfTanks</string>
+    <string name="description">Description:</string>
+    <string name="genre">Genre:</string>
+    <string name="platform">Platform:</string>
+    <string name="shooter">Shooter</string>
+    <string name="windows">Windows</string>
+    <string name="developer">Developer:</string>
+    <string name="wargaming">Wargaming</string>
+    <string name="date_of_release">Date of release:</string>
+    <string name="_2011_04_12">2011-04-12</string>
+    <string name="minimum_system_requirements">Minimum system requirements:</string>
 </resources>

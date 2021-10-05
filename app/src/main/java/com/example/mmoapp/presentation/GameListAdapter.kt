@@ -10,7 +10,6 @@ class GameListAdapter(
     private val retry: Retry,
 ) : BaseAdapter<GameUi, BaseViewHolder<GameUi>>() {
 
-
     abstract class GamesViewHolder(view: View) : BaseViewHolder<GameUi>(view) {
         class Base(view: View) : GamesViewHolder(view) {
             val title: CustomTextViewTitle = itemView.findViewById(R.id.title)

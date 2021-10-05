@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="@string/wordoftanks" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="266dp"
+            android:layout_height="149dp"
+            android:layout_margin="16dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/description" />
+
+        <TextView
+            android:id="@+id/descriptionGame"
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            android:layout_margin="16dp"
+            android:text="World of Tanks is a team-based free MMO action game exclusively focused on the armored warfare in the mid-20th century. Created by the strategy masterminds at Wargaming.net, this is a shooter with a lot of tactical elements to be taken into consideration." />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp">
+
+            <LinearLayout
+                android:id="@+id/shapeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/scrollImage1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:src="@drawable/ic_launcher_background" />
+
+                <ImageView
+                    android:id="@+id/scrollImage2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:src="@drawable/ic_launcher_background" />
+
+                <ImageView
+                    android:id="@+id/scrollImage3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:src="@drawable/ic_launcher_background" />
+
+                <ImageView
+                    android:id="@+id/scrollImage4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:src="@drawable/ic_launcher_background" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:src="@drawable/ic_launcher_background" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/genre"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/genre" />
+
+            <TextView
+                android:id="@+id/genreGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/shooter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/platform"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/platform" />
+
+            <TextView
+                android:id="@+id/platformGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/windows" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/developer"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/developer" />
+
+            <TextView
+                android:id="@+id/developerGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/wargaming" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/release_date"
+                android:layout_width="75dp"
+                android:layout_height="34dp"
+                android:layout_margin="16dp"
+                android:text="@string/date_of_release" />
+
+            <TextView
+                android:id="@+id/release_dateGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/_2011_04_12" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/requirements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="@string/minimum_system_requirements" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/os"
+                android:layout_width="75dp"
+                android:layout_height="34dp"
+                android:layout_margin="16dp"
+                android:text="OC:" />
+
+            <TextView
+                android:id="@+id/osGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Windows XP \/ Vista \/ 7 \/ 8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/processor"
+                android:layout_width="75dp"
+                android:layout_height="34dp"
+                android:layout_margin="16dp"
+                android:text="Processor:" />
+
+            <TextView
+                android:id="@+id/processorGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Intel Pentium 4 2.2 GHz" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/memory"
+                android:layout_width="75dp"
+                android:layout_height="34dp"
+                android:layout_margin="16dp"
+                android:text="Memory:" />
+
+            <TextView
+                android:id="@+id/memoryGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="2 GB" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/graphics"
+                android:layout_width="75dp"
+                android:layout_height="34dp"
+                android:layout_margin="16dp"
+                android:text="Graphics:" />
+
+            <TextView
+                android:id="@+id/graphicsGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Nvidia GeForce 6800 \/ ATI X1800 with 256 mb ram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/storage"
+                android:layout_width="75dp"
+                android:layout_height="34dp"
+                android:layout_margin="16dp"
+                android:text="Storage:" />
+
+            <TextView
+                android:id="@+id/storageGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="16 GB" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
